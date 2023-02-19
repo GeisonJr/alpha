@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "Build a typescript project"
+		},
+		{
+			"type": "npm",
+			"script": "release",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: release",
+			"detail": "Delete the dist folder"
+		},
+		{
+			"type": "npm",
+			"script": "types",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: types",
+			"detail": "Build a typescript definition files"
+		}
+	]
+}

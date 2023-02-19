@@ -1,0 +1,45 @@
+### dependencies ###
+node_modules/
+
+### testing ###
+coverage/
+# tests/
+# test/
+
+### production ###
+build/
+dist/
+out/
+
+### misc ###
+certificates/
+certificate/
+cert/
+
+### debug ###
+logs/
+log/
+
+### development ###
+# .vscode/
+# tasks/
+*.dump.*
+.dump/
+*.old.*
+.old/
+
+### packages ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### environments ###
+.env
+.env.development
+# .env.example
+.env.local
+.env.production
+.env.test
+
+### typescript ###
+*.tsbuildinfo
