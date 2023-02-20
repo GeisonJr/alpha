@@ -100,7 +100,9 @@ export function throughDirectory(dirname: string): FileStats[] {
 			files.push({
 				path: absolutePath,
 				dir: anatomy.root + anatomy.dir,
-				subdir: absolutePath.replace(dirname, ''),
+				subdir: absolutePath
+					.replace(dirname, '')
+					.replace(anatomy.base, ''),
 				name: anatomy.name,
 				ext: anatomy.ext,
 				stats: fsStats
